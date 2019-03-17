@@ -4,12 +4,12 @@ Joins multicast ipv4/ipv6 groups on specified interface (used for debugging mult
 Tested on windows and linux
 
 ## Building
- Make sure you have [Go](https://golang.org/doc/install) properly installed, including setting up your [GOPATH](https://golang.org/doc/code.html#GOPATH)
+Make sure you have [Go](https://golang.org/doc/install) properly installed.
+Requires go1.12+
 
 Next, run
 
  ```
- $ cd $GOPATH
  $ go get github.com/42wim/gomul
  ```
 
