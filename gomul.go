@@ -3,12 +3,13 @@ package main
 import (
 	"flag"
 	"fmt"
-	"golang.org/x/net/ipv4"
-	"golang.org/x/net/ipv6"
 	"log"
 	"net"
 	"os"
 	"strings"
+
+	"golang.org/x/net/ipv4"
+	"golang.org/x/net/ipv6"
 )
 
 var iMap map[string]int
